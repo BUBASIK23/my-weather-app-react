@@ -5,6 +5,13 @@ export default function App() {
   return (
     <div className="App">
       Weather
+      <footer>
+        This weather-app is {" "}
+        <a href="https://github.com/BUBASIK23/my-weather-app-react" target="_blank" rel="noreferrer">open sourced</a>
+        {" "}and built by {" "}
+        <a href="https://cheerful-taffy-49b22f.netlify.app/" target="_blank" rel="noreferrer">
+        Liubov Bieliaieva</a>
+              </footer>
     </div>
   );
 }
