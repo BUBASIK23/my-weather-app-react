@@ -1,10 +1,12 @@
 import React from "react";
+import 'bootstrap/dist/css/bootstrap.css';
 import './App.css';
 
 export default function App() {
   return (
     <div className="App">
       Weather
+      
       <footer>
         This weather-app is {" "}
         <a href="https://github.com/BUBASIK23/my-weather-app-react" target="_blank" rel="noreferrer">open sourced</a>
